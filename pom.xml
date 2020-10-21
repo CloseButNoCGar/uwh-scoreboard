@@ -110,6 +110,14 @@
         </profile>
     </profiles>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Underwater Hockey Scoreboard</name>
+            <url>https://maven.pkg.github.com/CloseButNoCGar/uwh-scoreboard</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
@@ -135,14 +143,14 @@
             <artifactId>sonar-maven-plugin</artifactId>
             <version>3.7.0.1746</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.junit</groupId>
+            <artifactId>junit-bom</artifactId>
+            <version>5.2.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
-    <distributionManagement>
 
-        <repository>
-            <id>github</id>
-            <name>Underwater Hockey Scoreboard</name>
-            <url>https://maven.pkg.github.com/CloseButNoCGar/uwh-scoreboard</url>
-        </repository>
-    </distributionManagement>
 </project>
