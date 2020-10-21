@@ -141,7 +141,7 @@
         <repository>
             <id>github</id>
             <name>Underwater Hockey Scoreboard</name>
-            <url>https://maven.pkg.github.com/CloseButNoCGar/uwh-scroeboard</url>
+            <url>https://maven.pkg.github.com/CloseButNoCGar/uwh-scoreboard</url>
         </repository>
     </distributionManagement>
 </project>
