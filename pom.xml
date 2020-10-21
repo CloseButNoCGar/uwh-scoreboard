@@ -15,6 +15,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <code.coverage.exclusions></code.coverage.exclusions>
+        <encoding>UTF-8</encoding>
     </properties>
 
     <build>
