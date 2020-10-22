@@ -1,7 +1,16 @@
 package com.closebutnocgar.uwh;
 
+import static java.awt.EventQueue.invokeLater;
+
 public class Main {
     public static void main(String[] args){
-        System.out.println("Hello World!");
+        invokeLater(() -> {
+            try {
+                Scoreboard window = new Scoreboard();
+                window.setVisible(true);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
     }
 }
